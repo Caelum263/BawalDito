@@ -14,12 +14,12 @@ I'm someone that who can balance playing games and academic purposes. I love pla
 i have alot of friends, and i am introvert sometimes extrovert. My hobbies is playing simulator,going out,doing chores, and playong moba games. And mabait po ako di po ako nangangagat
 
 ## AREA OF INTEREST
-Drift simulator
-MOBA games
-Car culture
+ - Drift simulator
+ - MOBA games
+ - Car culture
 
 ## PROGRAMMING LANGUAGE
-Java 
+ - Java 
 
 ----
 
