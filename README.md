@@ -2,6 +2,10 @@
 This is private property do not enter this page 
 ----
 
-Hi i am Ernest Jaren C. Agapito
-You can call me Ernest or Jaren Whatever you like
+<p align="center">
+  <img src=""/>
+</p>
+<p align="center">
+Hello! I'm Ernest Jaren C Agapito ... 😃
+  </p>
 
