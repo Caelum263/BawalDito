@@ -23,5 +23,10 @@ i have alot of friends, and i am introvert sometimes extrovert. My hobbies is pl
 
 ----
 
-## MY PROJECTS
+## Fun Fact About me
+- I know how to drift
+- i love coffee
+
+
+
 
