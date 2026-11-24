@@ -61,6 +61,13 @@ And *mabait po ako, di po ako nangangagat!* 🐶
 - ☕ I love coffee
 
 ---
+## 📂 C:/Users/anonymoods/javaprojects/Midterm Projects
+---
+### 📂 C:/Users/anonymoods/javaprojects/Midterm Projects/Midterm Task 1
+📄 [Midterm Task 1](https://github.com/Caelum263/BawalDito/tree/main/Lab%20task)
+\
+📄 [Documentation](https://github.com/Caelum263/BawalDito/blob/main/Midterm%20Task/Lab%20task%20No.1%20Agapito%2C%20Ernest%20Jaren%20C.pdf)
+ 
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
