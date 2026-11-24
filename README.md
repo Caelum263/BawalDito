@@ -61,9 +61,9 @@ And *mabait po ako, di po ako nangangagat!* 🐶
 - ☕ I love coffee
 
 ---
-## 📂 C:/Users/anonymoods/javaprojects/Midterm Projects
+Lab Tasks
 ---
-### 📂 C:/Users/anonymoods/javaprojects/Midterm Projects/Midterm Task 1
+### 📂 C:/Users/BawalDito/javaprojects/Midterm Projects/Midterm Task 1
 📄 [Midterm Task 1](https://github.com/Caelum263/BawalDito/tree/main/Lab%20task)
 \
 📄 [Documentation](https://github.com/Caelum263/BawalDito/blob/main/Midterm%20Task/Lab%20task%20No.1%20Agapito%2C%20Ernest%20Jaren%20C.pdf)
