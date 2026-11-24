@@ -1,0 +1,27 @@
+public class ThreeDim {
+    
+    public static void main(String[] args) {
+        int threeD[][][] = {{
+                         {10,20},
+                         {30,40}
+                         },
+                         {
+                         {50,60},
+                         {70,80}
+                         }
+
+        };
+       // travers the Arrays elements
+       for(int layer = 0; layer < threeD.length; layer++) {
+            for(int row = 0; row<threeD[layer].length; row++) {
+                for(int col=0; col<threeD[layer][row].length; col++) {
+                    System.out.println("threeD[" + layer + "][" + row + "][" + col + "] = "+ threeD[layer][row][col]);
+        
+                }
+            
+            }
+        }
+    }
+}
+
+
