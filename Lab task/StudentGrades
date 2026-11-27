@@ -1,0 +1,109 @@
+import java.util.Scanner;
+public class StudentGrades {
+
+    static final String LINE = "--------------------------------------------";
+    
+    //1. void main method wiht 4 parameters
+    static void studInfo(String num, String name, String course, String year) {
+        System.out.println(LINE);
+        System.out.println("Student Details: " + num + " " + course + " " + year);
+        System.out.println("Full Name: " + name);
+        System.out.println(LINE);
+    }
+
+    public static void getEquiv(double ave, char choice) {
+        switch(choice)
+        {
+            case 'L': case 'l':
+            {
+                String letter;
+                if(ave >= 90)
+                    letter = "A";
+                else if (ave >= 83)
+                    letter = "B";
+                  if(ave >= 75)
+                    letter = "C";
+                else if (ave >= 60)
+                    letter = "D";
+                else
+                    letter = "F";
+                System.out.printf("%-20s: %s%n", "Letter Grade is", letter);
+                break; //exit case
+            }
+            
+            case 'N': case 'n':
+            {
+                String numeric;
+                if(ave >= 96)
+                    numeric = "4.00";
+                else if (ave >= 90)
+                     numeric  = "3.50";
+                  if(ave >= 84)
+                     numeric  = "3.00";
+                else if (ave >= 77)
+                     numeric  = "2.50";
+                else if (ave >= 70)
+                     numeric  = "2.00";
+                    else
+                        numeric = "1.00";
+                System.out.printf("%-20s: %s%n", "Letter Grade is", numeric);
+                break;
+            }
+            default:
+            {
+                System.out.println("No Match!!!");
+                break;
+            }
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println(LINE);
+        System.out.println("Sample Output :");
+        System.out.println(LINE);
+        System.out.print("Student Number : ");
+        String num = sc.nextLine();
+        System.out.print("Student Name  : ");
+        String name = sc.nextLine();
+        System.out.print("Course        : ");
+        String course = sc.nextLine();
+        System.out.print("Year Level    : ");
+        String year = sc.nextLine();
+
+        System.out.println(LINE);
+        System.out.println("Enter Grades:");
+        System.out.print("Grade 1 : ");
+        double g1 = sc.nextDouble();
+        System.out.print("Grade 2 : ");
+        double g2 = sc.nextDouble();
+        System.out.print("Grade 3 : ");
+        double g3 = sc.nextDouble();
+
+        System.out.println(LINE);
+        System.out.print("Display Letter Grade or Numeric Grade[L|N]?");
+        char choice = sc.next(). charAt(0);
+
+        double ave = (g1 + g2 + g3) / 3;
+
+        studInfo(num, name, course, year);
+        System.out.printf("%-20s: %s%n", "Average is", ave);
+        getEquiv(ave, choice);
+        System.out.printf("%-20s: %s%n", "Remarks", ave >= 60 ? "Passed" : "Failed");
+        System.out.println(LINE);
+    }
+}
+        
+
+
+                    
+
+
+                
+
+
+
+
+
+
+
